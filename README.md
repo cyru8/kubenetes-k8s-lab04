@@ -83,7 +83,9 @@ Step 4 - External IPs
 
 Another approach to making a service available outside of the cluster is via External IP addresses.
 
-Update the definition to the current cluster's IP address with sed -i 's/HOSTIP/172.17.0.109/g' externalip.yaml
+Update the definition to the current cluster's IP address with 
+
+sed -i 's/HOSTIP/172.17.0.109/g' externalip.yaml
 
 cat externalip.yaml
 
